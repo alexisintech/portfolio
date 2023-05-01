@@ -5,7 +5,7 @@ import { VariantProps, cva } from "class-variance-authority";
 import { cn } from "@/lib/utils";
 
 const buttonVariants = cva(
-  "inline-flex rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background items-center",
+  "inline-flex rounded text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:opacity-50 disabled:pointer-events-none ring-offset-background items-center",
   {
     variants: {
       variant: {
@@ -20,9 +20,9 @@ const buttonVariants = cva(
         link: "underline-offset-4 hover:underline text-primary",
       },
       size: {
-        default: "h-7 px-3",
-        sm: "h-9 px-3 rounded-md",
-        lg: "h-11 px-8 rounded-md",
+        default: "h-9 px-3",
+        sm: "h-7 px-3",
+        lg: "h-10 py-2 px-4",
       },
     },
     defaultVariants: {

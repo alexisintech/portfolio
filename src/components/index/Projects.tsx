@@ -1,58 +1,30 @@
-import Image from "next/image";
-import { UilGithub, UilExternalLinkAlt } from "@iconscout/react-unicons";
+import { Project } from "./Project";
+import { IProject } from "@/lib/types";
 
 export const Projects = () => {
   return (
     <main className="w-full py-48">
       <div className="container flex flex-col gap-10 px-52">
-        {/* personal */}
         <div className="flex gap-5 self-center mb-10">
           <h4 className="font-mont uppercase italic">Personal</h4>
           <h4 className="font-mont uppercase italic opacity-50">
             Cross-functional teams
           </h4>
         </div>
-        <div className="flex gap-20">
-          <section className="flex order-1 w-3/5 relative">
-            <Image
-              className="rounded"
-              width="1000"
-              height="1000"
-              src="/mindfully.webp"
-              alt="Mindfully app"
-            />
-            <ul className="absolute right-2 top-2 gap-1 flex flex-col">
-              <li>
-                <a
-                  href="https://github.com/alexisintech/mindfully"
-                  aria-label="Github"
-                  target="_blank"
-                >
-                  <UilGithub className="opacity-50 hover:opacity-100 w-5" />
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://mindfully.up.railway.app"
-                  aria-label="Github"
-                  target="_blank"
-                >
-                  <UilExternalLinkAlt className="opacity-50 hover:opacity-100 w-5" />
-                </a>
-              </li>
-            </ul>
-          </section>
-          <section className="flex flex-col gap-2 order-2 w-2/5">
-            <h3 className="uppercase font-mont font-medium">Title</h3>
-            <p className="text-justify">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt
-              cumque esse nemo animi adipisci ipsum ut ad praesentium nesciunt.
-            </p>
-          </section>
-        </div>
+        {personalProjects.map((project, index) => (
+          <Project key={index} project={project} />
+        ))}
       </div>
     </main>
   );
 };
 
-const projects = [{}];
+const personalProjects: IProject[] = [
+  {
+    title: "Mindfully",
+    description:
+      "A full-stack app that encourages users to improve their mental health through mindfulness and journaling. Write journal entries every day either by using a blank slate or by using prompts created for you or created by you.",
+    github: "https://github.com/alexisintech/mindfully",
+    live: "https://mindfully.up.railway.app",
+  },
+];

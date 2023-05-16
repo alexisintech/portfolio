@@ -22,6 +22,7 @@ export const Hero = () => {
           {/* Avatar */}
           <div className="flex flex-col w-10/12 sm:w-4/12 md:w-3/12 self-center mb-2">
             <Image
+              priority
               className="rounded-full"
               width="2000"
               height="2000"

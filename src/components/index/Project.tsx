@@ -14,13 +14,13 @@ export const Project = ({ project }: IProps) => {
           className="rounded"
           width="1000"
           height="1000"
-          src={`/${project.title}.webp`}
+          src={project.img}
           alt={`${project.title} app`}
         />
         <ul className="absolute right-2 top-2 gap-1 flex flex-col">
           <li>
             <a
-              href={project.github}
+              href={project.githubUrl}
               aria-label="Github"
               target="_blank"
               title="Github"
@@ -30,7 +30,7 @@ export const Project = ({ project }: IProps) => {
           </li>
           <li>
             <a
-              href={project.live}
+              href={project.liveUrl}
               aria-label="Live site"
               target="_blank"
               title="Live site"
@@ -43,6 +43,9 @@ export const Project = ({ project }: IProps) => {
       <section className="flex flex-col gap-2 order-2 w-2/5">
         <h3 className="uppercase font-mont font-medium">{project.title}</h3>
         <p className="text-justify">{project.description}</p>
+        <p className="text-justify italic opacity-50 text-sm">
+          {project.creatorsNote}
+        </p>
       </section>
     </div>
   );

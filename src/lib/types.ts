@@ -1,6 +1,8 @@
 export interface IProject {
   title: string;
+  img: string;
   description: string;
-  github: string;
-  live: string;
+  creatorsNote: string;
+  githubUrl: string;
+  liveUrl: string;
 }

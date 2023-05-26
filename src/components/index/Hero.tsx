@@ -16,11 +16,11 @@ const montserrat = Montserrat({
 
 export const Hero = () => {
   return (
-    <main className="w-full py-20">
+    <main className="w-full py-20 max-w-md mx-auto">
       <div className="container">
         <div className="flex flex-col w-full items-center gap-1">
           {/* Avatar */}
-          <div className="flex flex-col w-10/12 sm:w-4/12 md:w-3/12 self-center mb-2">
+          <div className="flex flex-col w-10/12 self-center mb-2">
             <Image
               priority
               className="rounded-full"

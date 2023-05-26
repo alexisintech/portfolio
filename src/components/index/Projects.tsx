@@ -17,8 +17,8 @@ export const Projects = () => {
 
   return (
     <main className="w-full py-48">
-      <div className="container flex flex-col gap-10 px-52">
-        <div className="flex gap-5 self-center mb-10">
+      <div className="container flex flex-col gap-12 md:gap-14 md:px-32">
+        <div className="flex gap-5 self-center">
           <h4
             onClick={handleClick}
             className={`font-mont uppercase italic hover:cursor-pointer ${

@@ -8,7 +8,7 @@ interface IProps {
 
 export const Project = ({ project }: IProps) => {
   return (
-    <div className="flex flex-col lg:flex-row gap-4 md:gap-4 xl:gap-20">
+    <div className="flex flex-col lg:flex-row gap-4 lg:gap-8 xl:gap-12">
       <section className="flex order-1 relative w-3/5">
         <div>
           <Image

@@ -22,7 +22,7 @@ export const Projects = () => {
           <h4
             onClick={handleClick}
             className={`font-mont uppercase italic hover:cursor-pointer ${
-              !active.personal && "opacity-50"
+              !active.personal && "opacity-50 hover:opacity-70"
             }`}
           >
             Personal
@@ -30,7 +30,7 @@ export const Projects = () => {
           <h4
             onClick={handleClick}
             className={`font-mont uppercase italic hover:cursor-pointer ${
-              !active.crossfunctional && "opacity-50"
+              !active.crossfunctional && "opacity-50 hover:opacity-70"
             }`}
           >
             Cross-functional teams

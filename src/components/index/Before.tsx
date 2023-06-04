@@ -23,18 +23,20 @@ export const Before = () => {
           privileged to help my community as a veterinary technician in gold
           standard animal hospitals for over 2.5 years. While managing animal
           hospitals, I learned full stack web development through the part time,
-          remote bootcamp 100Devs. I built multiple projects in cross-functional
-          teams. I successfully delivered to clients, including a Partnered
-          Twitch streamer's e-commerce{" "}
+          remote bootcamp 100Devs. I built multiple projects individually and in
+          cross-functional teams. I successfully delivered websites to multiple
+          clients. After graduating the bootcamp, I went back to my roots. I
+          began writing regularly and started a LinkedIn series called{" "}
           <Link
             target="_blank"
-            href="https://reversah.com"
+            href="https://www.linkedin.com/posts/alexisintech_the-search-is-on-a-new-series-valentines-activity-7031397307820437504-0Sdb?utm_source=share&utm_medium=member_desktop"
             className="font-bold decoration-purple-400 underline"
           >
-            website
-          </Link>
-          , achieving a quarterly increase of 248% in total sales, 102% in
-          conversion rate, and 100% in returning customer rate.
+            "Posting until I'm hired".
+          </Link>{" "}
+          I began teaching again through mentoring and career coaching. And it
+          wasn't long until I got my first tech role as a Founding Engineer at a
+          startup.
         </p>
       </div>
     </div>

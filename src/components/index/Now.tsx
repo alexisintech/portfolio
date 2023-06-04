@@ -10,15 +10,16 @@ export const Now = () => {
           </div>
         </h2>
         <p className="md:text-justify pl-8 md:pl-0 pr-4 text-lg md:text-base lg:pr-12">
-          I was leading the creation of an educational technology platform with
-          a small bootstrapped startup. I am now looking to bring my unique
-          perspective and skillset to a collaborative environment where
-          diversity and learning is celebrated. For me, people come first. As a
-          Woman of Color in tech, I'm passionate about supporting others,
-          especially those from underrepresented groups. My experiences with BPD
-          and Autism have helped me gain profound perspective and fathomless
-          empathy, and my challenges inspired me to create a mental health
-          support community called{" "}
+          I was a Founding Engineer for two different startups. Most recently, I
+          wore many hats as I lead the creation of an educational technology
+          platform. I am now looking to bring my unique perspective and skillset
+          to a collaborative environment where diversity and humanity is
+          celebrated. For me, people come first. As a Woman of Color in tech,
+          I'm passionate about supporting others, especially those from
+          underrepresented groups. My experiences with BPD and Autism have
+          helped me gain profound perspective and fathomless empathy, and my
+          challenges inspired me to create a mental health support community
+          called{" "}
           <Link
             target="_blank"
             href="https://t.co/joXpZayBi3"

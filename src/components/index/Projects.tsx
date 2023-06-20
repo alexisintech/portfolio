@@ -90,6 +90,15 @@ const personalProjects: IProject[] = [
     liveUrl: "https://adminme.netlify.app/",
   },
   {
+    title: "My Clerks",
+    description: "My Clerks was a take-home assignment!",
+    creatorsNote:
+      "One task was to display users from the RandomUser API and fetch data in the most performant way. I used Tanstack Query to fetch, cache, and manage data, and I set up logic to have the following two pages always be pre-fetched. The second task was to allow users to choose any color for the theme and have it persist upon full page reloads.",
+    img: "/my-clerks.webp",
+    githubUrl: "https://github.com/alexisintech/my_clerks",
+    liveUrl: "https://myclerks.vercel.app/",
+  },
+  {
     title: "CSS Generators API",
     description:
       "The CSS Generators API provides a directory of efficacious websites that generate CSS design elements.",

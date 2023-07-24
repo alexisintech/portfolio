@@ -10,12 +10,18 @@ export const Now = () => {
           </div>
         </h2>
         <p className="md:text-justify pl-8 md:pl-0 pr-4 text-lg md:text-base lg:pr-12">
-          I was a Founding Engineer for two different startups. Most recently, I
-          wore many hats as I lead the creation of an educational technology
-          platform. I am now looking to bring my unique perspective and skillset
-          to a collaborative environment where diversity and humanity is
-          celebrated. For me, people come first. As a Woman of Color in tech,
-          I'm passionate about supporting others, especially those from
+          I was a founding engineer at two startups... but those experiences
+          were short lived, as what happens in the startup life sometimes. Now,
+          I'm a software engineer at{" "}
+          <Link
+            target="_blank"
+            href="https://clerk.com/"
+            className="font-bold decoration-purple-400 underline"
+          >
+            Clerk
+          </Link>{" "}
+          . For me, people come first. As a Woman of Color in tech, I'm
+          passionate about supporting others, especially those from
           underrepresented groups. My experiences with BPD and Autism have
           helped me gain profound perspective and fathomless empathy, and my
           challenges inspired me to create a mental health support community
@@ -27,9 +33,8 @@ export const Now = () => {
           >
             Reach.
           </Link>{" "}
-          In my free time, I manage a few other communities and you can also
-          find me career coaching, mentoring, pair programming, or tinkering
-          with new technology.
+          In my free time, I manage a few other communities. I'm also a huge
+          music connoisseur, an anime and gaming nerd, and a lifter of weights.
         </p>
       </div>
     </div>

@@ -19,7 +19,7 @@ export const Now = () => {
             className="font-bold decoration-purple-400 underline"
           >
             Clerk
-          </Link>{" "}
+          </Link>
           . For me, people come first. As a Woman of Color in tech, I'm
           passionate about supporting others, especially those from
           underrepresented groups. My experiences with BPD and Autism have

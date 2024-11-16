@@ -2,8 +2,8 @@ import { CSSProperties } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
-import { Button } from "@/components/ui/button";
 import { UilLinkedin, UilTwitter, UilGithub } from "@iconscout/react-unicons";
+import { Button } from "./button";
 
 const style: CSSProperties = {
   opacity: 0.75,
@@ -16,11 +16,11 @@ const montserrat = Montserrat({
 
 export const Hero = () => {
   return (
-    <main className="w-full py-20 max-w-md mx-auto">
+    <main className="py-20 mx-auto w-full max-w-md">
       <div className="container">
-        <div className="flex flex-col w-full items-center gap-1">
+        <div className="flex flex-col gap-1 items-center w-full">
           {/* Avatar */}
-          <div className="flex flex-col w-10/12 self-center mb-2">
+          <div className="flex flex-col self-center mb-2 w-10/12">
             <Image
               priority
               className="rounded-full"
@@ -36,12 +36,12 @@ export const Hero = () => {
               href={"mailto:alexmerona@gmail.com"}
               className="flex flex-row gap-2 no-underline"
             >
-              <span className="relative flex h-2 w-2 flex-shrink-0 self-center">
+              <span className="flex relative flex-shrink-0 self-center w-2 h-2">
                 <span
                   style={style}
-                  className="absolute inline-flex h-full w-full animate-ping rounded-full bg-green-400"
+                  className="inline-flex absolute w-full h-full bg-green-400 rounded-full animate-ping"
                 ></span>
-                <span className="relative inline-flex h-2 w-2 rounded-full bg-green-500"></span>
+                <span className="inline-flex relative w-2 h-2 bg-green-500 rounded-full"></span>
               </span>
               <span className={`${montserrat.className} uppercase text-xxs`}>
                 Hire me
@@ -58,7 +58,7 @@ export const Hero = () => {
                 aria-label="Github"
                 target="_blank"
               >
-                <UilGithub className="opacity-50 hover:opacity-100 w-5" />
+                <UilGithub className="w-5 opacity-50 hover:opacity-100" />
               </a>
             </li>
             <li>
@@ -67,7 +67,7 @@ export const Hero = () => {
                 aria-label="Twitter"
                 target="_blank"
               >
-                <UilTwitter className="opacity-50 hover:opacity-100 w-5" />
+                <UilTwitter className="w-5 opacity-50 hover:opacity-100" />
               </a>
             </li>
             <li>
@@ -76,7 +76,7 @@ export const Hero = () => {
                 aria-label="LinkedIn"
                 target="_blank"
               >
-                <UilLinkedin className="opacity-50 hover:opacity-100 w-5" />
+                <UilLinkedin className="w-5 opacity-50 hover:opacity-100" />
               </a>
             </li>
           </ul>

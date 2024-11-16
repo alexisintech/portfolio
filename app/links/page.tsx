@@ -1,7 +1,7 @@
-import Hero from "@/components/links/Hero";
-import Links from "@/components/links/Links";
-import Footer from "@/components/links/Footer";
 import Head from "next/head";
+import Hero from "./components/Hero";
+import Links from "./components/Links";
+import Footer from "./components/Footer";
 
 function LinksIndex() {
   return (
@@ -13,8 +13,8 @@ function LinksIndex() {
           content="Alexis Aguilar's social links, all in one place for convenience."
         />
       </Head>
-      <div className="links-index min-h-screen bg-black text-white">
-        <div className="container mx-auto flex min-h-screen flex-col items-center text-center">
+      <div className="min-h-screen text-white bg-black links-index">
+        <div className="container flex flex-col items-center mx-auto min-h-screen text-center">
           <Hero />
           <Links />
           <Footer />

@@ -1,9 +1,9 @@
 export const About = () => {
   return (
-    <main className="w-full py-10">
+    <main className="py-10 w-full">
       <div className="container flex gap-40 px-32">
         <section className="flex flex-col gap-2 w-1/2">
-          <h2 className="uppercase font-mont font-medium">Before</h2>
+          <h2 className="font-medium uppercase font-mont">Before</h2>
           <p className="text-justify">
             In my final 2 years at Stetson University, I conducted Herpetology +
             Invasive Species research while also serving my peers as both a
@@ -19,7 +19,7 @@ export const About = () => {
           </p>
         </section>
         <section className="flex flex-col gap-2 w-1/2">
-          <h2 className="uppercase font-mont font-medium">Now</h2>
+          <h2 className="font-medium uppercase font-mont">Now</h2>
           <p className="text-justify">
             I was leading the creation of an educational technology platform
             with a small bootstrapped startup. I am now looking to bring my

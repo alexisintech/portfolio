@@ -1,6 +1,8 @@
+"use client";
+
 import { useState } from "react";
 import { Project } from "./Project";
-import { IProject } from "@/lib/types";
+import { IProject } from "../types/globals";
 
 export const Projects = () => {
   const [active, setActive] = useState({
@@ -16,7 +18,7 @@ export const Projects = () => {
   };
 
   return (
-    <main className="w-full py-48">
+    <main className="py-48 w-full">
       <div className="container flex flex-col gap-12 md:gap-14 md:px-32">
         <div className="flex gap-5 self-center">
           <h4

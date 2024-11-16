@@ -18,7 +18,7 @@ export const Projects = () => {
   };
 
   return (
-    <main className="py-48 w-full">
+    <main className="py-28 w-full">
       <div className="container flex flex-col gap-12 md:gap-14 md:px-32">
         <div className="flex gap-5 self-center">
           <h4

@@ -8,8 +8,10 @@ export default function Home() {
     <main className={`mx-auto max-w-7xl min-h-screen`}>
       <Hero />
       {/* <About /> */}
-      <Before />
-      <Now />
+      <div className="flex flex-col gap-10">
+        <Before />
+        <Now />
+      </div>
       <Projects />
     </main>
   );

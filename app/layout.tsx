@@ -14,7 +14,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={montserrat.className}>
-      <body>{children}</body>
+      <body className="min-h-screen text-orange-100 bg-stone-950">
+        {children}
+      </body>
     </html>
   );
 }

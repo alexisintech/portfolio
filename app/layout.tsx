@@ -1,3 +1,4 @@
+import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
 import { Montserrat } from "next/font/google";
 
@@ -13,10 +14,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={montserrat.className}>
-      <body className="min-h-screen text-orange-100 bg-stone-950">
-        {children}
-      </body>
-    </html>
+    <ClerkProvider afterSignOutUrl="/auth">
+      <html lang="en" className={montserrat.className}>
+        <body className="min-h-screen text-orange-100 bg-stone-950">
+          {children}
+        </body>
+      </html>
+    </ClerkProvider>
   );
 }

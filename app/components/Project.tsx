@@ -12,7 +12,7 @@ export const Project = ({ project }: IProps) => {
       <section className="flex relative order-1 w-3/5">
         <div>
           <Image
-            className="rounded"
+            className="rounded-sm"
             width="1000"
             height="1000"
             src={project.img}

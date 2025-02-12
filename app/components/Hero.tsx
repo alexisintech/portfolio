@@ -31,7 +31,7 @@ const HireMeButton = () => {
         href={"mailto:alexmerona@gmail.com"}
         className="flex flex-row gap-2 no-underline"
       >
-        <span className="flex relative flex-shrink-0 self-center w-2 h-2">
+        <span className="flex relative shrink-0 self-center w-2 h-2">
           <span className="inline-flex absolute w-full h-full bg-green-400 rounded-full opacity-75 animate-ping"></span>
           <span className="inline-flex relative w-2 h-2 bg-green-500 rounded-full"></span>
         </span>

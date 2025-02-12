@@ -25,7 +25,7 @@ export const Before = () => {
           hospitals, I learned full stack web development through the part time,
           remote bootcamp 100Devs. I built multiple projects individually and in
           cross-functional teams and successfully delivered websites to multiple
-          clients. After graduating the 100Devs, I went back to my roots. I
+          paid clients. After graduating 100Devs, I went back to my roots. I
           began writing regularly and started a LinkedIn series called{" "}
           <Link
             target="_blank"

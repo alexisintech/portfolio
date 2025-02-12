@@ -43,13 +43,13 @@ const HireMeButton = () => {
 
 export const Hero = () => {
   return (
-    <main className="py-20 mx-auto w-full max-w-md">
+    <main className="mx-auto w-full max-w-md">
       <div className="flex flex-col gap-1 items-center w-full">
         <Avatar />
         {/* <HireMeButton /> */}
 
         <h1 className="text-2xl">Alexis Aguilar</h1>
-        <span className="opacity-50">Florida, USA</span>
+        <span className="opacity-50">Miami, Florida, USA</span>
         <ul className="flex gap-3">
           <li className="hover:animate-wiggle">
             <a

@@ -12,14 +12,13 @@ export const metadata: Metadata = {
 
 export default function Home() {
   return (
-    <main className={`mx-auto max-w-7xl min-h-screen`}>
-      <Hero />
-      {/* <About /> */}
+    <main className="py-20 mx-auto max-w-7xl min-h-screen">
       <div className="flex flex-col gap-10">
+        <Hero />
         <Before />
         <Now />
+        {/* <Projects /> */}
       </div>
-      <Projects />
     </main>
   );
 }

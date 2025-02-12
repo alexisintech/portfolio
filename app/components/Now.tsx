@@ -10,32 +10,29 @@ export const Now = () => {
           </div>
         </h2>
         <p className="pr-4 pl-8 text-lg md:text-justify md:pl-0 md:text-base lg:pr-12">
-          Now, I'm a software engineer at{" "}
-          <Link
-            target="_blank"
-            href="https://clerk.com/"
-            className="font-bold underline decoration-purple-400"
-          >
+          Since July 2023, I've been a Software Engineer at{" "}
+          <Link target="_blank" href="https://clerk.com/">
             Clerk
           </Link>
           . For a majority of my time at Clerk, I've had sole ownership over the{" "}
-          <Link
-            target="_blank"
-            href="https://clerk.com/docs"
-            className="font-bold underline decoration-purple-400"
-          >
+          <Link target="_blank" href="https://clerk.com/docs">
             Clerk Docs
           </Link>
-          . Now, I'm leading a teammate! I also like to help out other teams
-          where I can to gain more product knowledge and bond with my Clerk
-          family. 💙 For me, people come first. As a BIPOC LGTBQ+ neurodivergent
-          Woman in tech, I'm passionate about supporting others, especially
-          those from underrepresented groups. My experiences in adversity have
-          helped me gain profound perspective and fathomless empathy. Outside of
-          tech, I'm a huge music connoisseur with an affinity for electric
-          guitars. I love going to live music events with my rave fam. I also
-          enjoy reading about philosophy and Roman history, cooking, lifting
-          weights, and watching anime.
+          . Now, I'm managing a teammate! I've watched the Docs grow from a CMS
+          to a full-fledged, open source{" "}
+          <Link target="_blank" href="https://github.com/clerk/clerk-docs">
+            repository
+          </Link>{" "}
+          with over 400 docs. I also like to help out other teams where I can to
+          gain more product knowledge and bond with my Clerk family. 💜 For me,
+          people come first. As a BIPOC LGTBQ+ neurodivergent Woman in tech, I'm
+          passionate about supporting others, especially those from supporting
+          others, especially those from underrepresented groups. My experiences
+          in adversity have helped me gain profound perspective and fathomless
+          empathy. Outside of tech, I'm a huge music connoisseur with an
+          affinity for electric guitars. I also enjoy jamskating, reading about
+          philosophy and Roman history, cooking, lifting weights, and watching
+          anime.
         </p>
       </div>
     </div>

@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+a {
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: theme("colors.purple.400");
+}

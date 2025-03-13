@@ -14,11 +14,12 @@ export const Now = () => {
           <Link target="_blank" href="https://clerk.com/">
             Clerk
           </Link>
-          . For a majority of my time at Clerk, I've had sole ownership over the{" "}
+          . For a majority of my time at Clerk, I've pretty much had sole
+          ownership over the{" "}
           <Link target="_blank" href="https://clerk.com/docs">
             Clerk Docs
           </Link>
-          . Now, I'm managing a teammate! I've watched the Docs grow from a CMS
+          . Now, I'm managing a teammate! I've helped the Docs grow from a CMS
           to a full-fledged, open source{" "}
           <Link target="_blank" href="https://github.com/clerk/clerk-docs">
             repository
@@ -26,13 +27,12 @@ export const Now = () => {
           with over 400 docs. I also like to help out other teams where I can to
           gain more product knowledge and bond with my Clerk family. 💜 For me,
           people come first. As a BIPOC LGTBQ+ neurodivergent Woman in tech, I'm
-          passionate about supporting others, especially those from supporting
-          others, especially those from underrepresented groups. My experiences
-          in adversity have helped me gain profound perspective and fathomless
-          empathy. Outside of tech, I'm a huge music connoisseur with an
-          affinity for electric guitars. I also enjoy jamskating, reading about
-          philosophy and Roman history, cooking, lifting weights, and watching
-          anime.
+          passionate about supporting others, especially those from
+          underrepresented groups. My experiences in adversity have helped me
+          gain profound perspective and fathomless empathy. Outside of tech, I'm
+          a huge music connoisseur with an affinity for electric guitars. I also
+          enjoy jamskating, reading about philosophy and Roman history, cooking,
+          lifting weights, and watching anime.
         </p>
       </div>
     </div>

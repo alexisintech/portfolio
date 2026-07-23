@@ -1,6 +1,6 @@
-import { Before } from "./components/Before";
+import { Philosophy } from "./components/Philosophy";
 import { Hero } from "./components/Hero";
-import { Now } from "./components/Now";
+import { Experience } from "./components/Experience";
 import { Projects } from "./components/Projects";
 import type { Metadata } from "next";
 
@@ -15,8 +15,8 @@ export default function Home() {
     <main className="py-20 mx-auto max-w-7xl min-h-screen">
       <div className="flex flex-col gap-10">
         <Hero />
-        <Before />
-        <Now />
+        <Experience />
+        <Philosophy />
         {/* <Projects /> */}
       </div>
     </main>

@@ -36,7 +36,7 @@ export const Experience = () => {
         Day-to-day work was only part of the job. I always needed at least one
         major project in progress to keep the docs propelling forward. I scoped
         out and delivered countless projects, including three IA reworks,
-        multiple entire-site content audits, many rewrites of entire sections,
+        multiple entire-site content audits, many rewrites of the content for entire sections of the sidebar at a time,
         and enabling nearly half of the docs content to be generated
         programmatically. And a majority of this was manual as it was before AI
         took off!

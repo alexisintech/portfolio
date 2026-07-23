@@ -1,7 +1,26 @@
 @import 'tailwindcss';
 
-a {
-  font-weight: bold;
-  text-decoration: underline;
-  text-decoration-color: theme("colors.purple.400");
+@theme {
+  --animate-wiggle: wiggle 0.5s ease-in-out;
+}
+
+@keyframes wiggle {
+  0%,
+  100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-8deg);
+  }
+  75% {
+    transform: rotate(8deg);
+  }
+}
+
+@layer base {
+  a {
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: theme("colors.purple.400");
+  }
 }

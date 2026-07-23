@@ -10,11 +10,11 @@ export const Now = () => {
           </div>
         </h2>
         <p className="pr-4 pl-8 text-lg md:text-justify md:pl-0 md:text-base lg:pr-12">
-          Since July 2023, I've been a Software Engineer at{" "}
+          From July 2023 to July 2026, I was the Docs Manager at{" "}
           <Link target="_blank" href="https://clerk.com/">
             Clerk
           </Link>
-          . For a majority of my time at Clerk, I've pretty much had sole
+          . For a majority of my time at Clerk, I had sole
           ownership over the{" "}
           <Link target="_blank" href="https://clerk.com/docs">
             Clerk Docs

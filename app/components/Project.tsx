@@ -26,8 +26,9 @@ export const Project = ({ project }: IProps) => {
               aria-label="Github"
               target="_blank"
               title="Github"
+              className="inline-flex text-orange-100 no-underline font-normal opacity-50 transition-opacity hover:opacity-100"
             >
-              <UilGithub className="w-5 opacity-50 hover:opacity-100" />
+              <UilGithub size={20} />
             </a>
           </li>
           <li>
@@ -36,8 +37,9 @@ export const Project = ({ project }: IProps) => {
               aria-label="Live site"
               target="_blank"
               title="Live site"
+              className="inline-flex text-orange-100 no-underline font-normal opacity-50 transition-opacity hover:opacity-100"
             >
-              <UilExternalLinkAlt className="w-5 opacity-50 hover:opacity-100" />
+              <UilExternalLinkAlt size={20} />
             </a>
           </li>
         </ul>

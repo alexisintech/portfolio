@@ -1,8 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Montserrat } from "next/font/google";
+import { Github, Linkedin, Twitter } from "lucide-react";
 import { Button } from "./shadcn/button";
-import { UilLinkedin, UilTwitter, UilGithub } from "@iconscout/react-unicons";
+import avatar from "@/public/avatar.png";
 
 const montserrat = Montserrat({
   subsets: ["latin"],
@@ -11,13 +12,14 @@ const montserrat = Montserrat({
 
 const Avatar = () => {
   return (
-    <div className="flex flex-col self-center mb-2 w-10/12">
+    <div className="relative self-center w-10/12 aspect-square overflow-hidden rounded-full">
       <Image
         priority
-        className="rounded-full"
-        width="2000"
-        height="2000"
-        src="/avatar.webp"
+        placeholder="blur"
+        fill
+        className="object-cover object-[center_65%]"
+        sizes="(max-width: 28rem) 83vw, 373px"
+        src={avatar}
         alt="Headshot of Alexis Aguilar"
       />
     </div>
@@ -44,41 +46,47 @@ const HireMeButton = () => {
 export const Hero = () => {
   return (
     <main className="mx-auto w-full max-w-md">
-      <div className="flex flex-col gap-1 items-center w-full">
+      <div className="flex flex-col items-center w-full gap-3.5">
         <Avatar />
-        {/* <HireMeButton /> */}
 
-        <h1 className="text-2xl">Alexis Aguilar</h1>
-        <span className="opacity-50">Miami, Florida, USA</span>
-        <ul className="flex gap-3">
-          <li className="hover:animate-wiggle">
-            <a
-              href="https://github.com/alexisintech"
-              aria-label="Github"
-              target="_blank"
-            >
-              <UilGithub className="w-5 opacity-50 hover:opacity-100" />
-            </a>
-          </li>
-          <li className="hover:animate-wiggle">
-            <a
-              href="https://twitter.com/alexisintech"
-              aria-label="Twitter"
-              target="_blank"
-            >
-              <UilTwitter className="w-5 opacity-50 hover:opacity-100" />
-            </a>
-          </li>
-          <li className="hover:animate-wiggle">
-            <a
-              href="https://linkedin.com/in/alexisintech"
-              aria-label="LinkedIn"
-              target="_blank"
-            >
-              <UilLinkedin className="w-5 opacity-50 hover:opacity-100" />
-            </a>
-          </li>
-        </ul>
+        <div className="flex flex-col items-center gap-3.5">
+          <HireMeButton />
+          <div className="flex flex-col items-center gap-1.5">
+            <h1 className="text-2xl leading-none">Alexis Aguilar</h1>
+            <span className="leading-none opacity-50">
+              Scottsdale, Arizona, USA
+            </span>
+          </div>
+          <ul className="flex items-center gap-3 [&_li]:flex [&_li]:items-center [&_li]:justify-center [&_li]:hover:animate-wiggle [&_a]:flex [&_a]:size-5 [&_a]:items-center [&_a]:justify-center [&_a]:opacity-50 [&_a]:transition-opacity [&_a]:hover:opacity-100 [&_a]:no-underline [&_a]:font-normal">
+            <li>
+              <a
+                href="https://github.com/alexisintech"
+                aria-label="Github"
+                target="_blank"
+              >
+                <Github size={20} color="#ffedd5" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://twitter.com/alexisintech"
+                aria-label="Twitter"
+                target="_blank"
+              >
+                <Twitter size={20} color="#ffedd5" />
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://linkedin.com/in/alexisintech"
+                aria-label="LinkedIn"
+                target="_blank"
+              >
+                <Linkedin size={20} color="#ffedd5" />
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </main>
   );

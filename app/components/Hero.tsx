@@ -1,24 +1,22 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Montserrat } from "next/font/google";
-import { Github, Linkedin, Twitter } from "lucide-react";
+import {
+  GitHubLogoIcon,
+  LinkedInLogoIcon,
+  TwitterLogoIcon,
+} from "@radix-ui/react-icons";
 import { Button } from "./shadcn/button";
 import avatar from "@/public/avatar.png";
 
-const montserrat = Montserrat({
-  subsets: ["latin"],
-  display: "swap",
-});
-
 const Avatar = () => {
   return (
-    <div className="relative self-center w-10/12 aspect-square overflow-hidden rounded-full">
+    <div className="relative self-center w-3/4 aspect-square overflow-hidden rounded-full">
       <Image
         priority
         placeholder="blur"
         fill
         className="object-cover object-[center_65%]"
-        sizes="(max-width: 28rem) 83vw, 373px"
+        sizes="(max-width: 28rem) 75vw, 336px"
         src={avatar}
         alt="Headshot of Alexis Aguilar"
       />
@@ -64,7 +62,7 @@ export const Hero = () => {
                 aria-label="Github"
                 target="_blank"
               >
-                <Github size={20} color="#ffedd5" />
+                <GitHubLogoIcon width={20} height={20} color="#ffedd5" />
               </a>
             </li>
             <li>
@@ -73,7 +71,7 @@ export const Hero = () => {
                 aria-label="Twitter"
                 target="_blank"
               >
-                <Twitter size={20} color="#ffedd5" />
+                <TwitterLogoIcon width={20} height={20} color="#ffedd5" />
               </a>
             </li>
             <li>
@@ -82,7 +80,7 @@ export const Hero = () => {
                 aria-label="LinkedIn"
                 target="_blank"
               >
-                <Linkedin size={20} color="#ffedd5" />
+                <LinkedInLogoIcon width={20} height={20} color="#ffedd5" />
               </a>
             </li>
           </ul>

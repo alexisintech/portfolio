@@ -1,22 +1,13 @@
 # ☁ [Portfolio](https://alexisin.tech)
 
-> An interactive, fully responsive portfolio to let people get to know me a little, and to showcase a few of my projects.
-
-<img src="https://github.com/alexisintech/portfolio/blob/main/public/portfolio.gif" width="100%" />
+> Get to know me a little :) Or set up a chat with me, and get to know me a lot!
 
 <!-- BUILT WITH -->
 
 ## 🛠️ Built With
 
 - React
-- Tailwind
 - Next.js
+- Tailwind
 - Typescript
 - Deployment: Vercel
-
-<!-- ROADMAP -->
-
-## 🌷 Roadmap
-
-- [X] Mobile-first design; responsiveness Tailwind
-- [ ] Carousel for the projects
